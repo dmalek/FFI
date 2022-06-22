@@ -16,7 +16,7 @@ Project file (json):
 {
   "DestinationConnectionString": null,
   "ImportFilePath": null,
-  "ImportFolderPath": "C:\\Export\",
+  "ImportFolderPath": "C:\\Export\\",
   "ImportFilePattern": "*",
   "TruncateTable": false,
   "BatchSize": 50000,
