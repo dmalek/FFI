@@ -12,11 +12,11 @@ FFI.exe --load newProject.json
 
 
 Project file (json):
-'
+```
 {
   "DestinationConnectionString": null,
   "ImportFilePath": null,
-  "ImportFolderPath": null,
+  "ImportFolderPath": "C:\\Export\",
   "ImportFilePattern": "*",
   "TruncateTable": false,
   "BatchSize": 50000,
@@ -31,4 +31,4 @@ Project file (json):
   "BooleanFalseValue": "f",
   "LogFilePath": null
 }
-'
+```
