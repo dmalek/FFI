@@ -13,8 +13,8 @@ FFI.exe --load newProject.json
 
 Project file (json):
 
-{
-  "DestinationConnectionString": null,
+`{
+  "DestinationConnectionString": null, 
   "ImportFilePath": null,
   "ImportFolderPath": null,
   "ImportFilePattern": "*",
@@ -30,4 +30,4 @@ Project file (json):
   "BooleanTrueValue": "t",
   "BooleanFalseValue": "f",
   "LogFilePath": null
-}
+}`
