@@ -5,11 +5,14 @@ FFI is CLI tool for importing large data from CSV to SQL Server.
 
 
 Create new project:
+`
 FFI.exe --new newProject.json
+`
 
 Load and execute  project:
+`
 FFI.exe --load newProject.json
-
+`
 
 Project file (json):
 ```
