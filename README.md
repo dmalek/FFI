@@ -35,3 +35,6 @@ Project file (json):
   "LogFilePath": null
 }
 ```
+
+
+CSV file name and structure must mach table name and structure. 
