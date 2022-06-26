@@ -5,7 +5,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace SqlImport
+namespace FFI
 {
     internal static class Program
     {
@@ -30,7 +30,7 @@ namespace SqlImport
                 await JsonFile.SaveAsync(new ImportParams(), newProjectFileName);
                 return;
             }
-            else if (argValues.TryGetValue("--load", out var projectFileName))
+            else if (argValues.TryGetValue("--run", out var projectFileName))
             { 
                 // Load project
                 importParams = await JsonFile.LoadAsync<ImportParams>(projectFileName); 
