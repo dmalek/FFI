@@ -11,7 +11,7 @@ FFI.exe --new newProject.json
 
 Load and execute  project:
 `
-FFI.exe --load newProject.json
+FFI.exe --run newProject.json
 `
 
 Project file (json):
